@@ -10,3 +10,8 @@ emp.DisplayStats();
 emp.SetName("Marv");
 Console.WriteLine("Employee is named: {0}", emp.GetName());
 Console.ReadLine();
+
+//Длина 15  символов! На консоль выводится сообщение об ошибке.
+Employee emp2 = new Employee();
+emp2.SetName("Xena the warrior princess");
+Console.ReadLine();
